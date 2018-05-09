@@ -3,6 +3,7 @@ Python scripts for text vectorization and application of NLP to them for functio
 The dataset is not mine, so I cannot provide it, but here is the format:
 
 **Natural Language Processing and Vectorization:**
+
 ham\tNormal Text Message
 
 ham\tNormal Text Message
