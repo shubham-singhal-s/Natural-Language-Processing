@@ -23,3 +23,4 @@ This will be the data that the user enters and wants to perform analysis on. Thi
 
 **Algorithm**
 The algorithm, written in Python 3.0 consists of a module and a python script. The script is used to train the models, and store them in pickle files.
+https://www.cs.utexas.edu/~mooney/cs391L/paper-template.html
