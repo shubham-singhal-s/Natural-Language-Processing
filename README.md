@@ -23,4 +23,8 @@ This will be the data that the user enters and wants to perform analysis on. Thi
 
 **Algorithm**
 The algorithm, written in Python 3.0 consists of a module and a python script. The script is used to train the models, and store them in pickle files.
+
+First we run the file create_pickle.py to train our classifiers based on the datasets: positive.txt and negative.txt and save the trained models in pickle files under the folder, pickled_classifiers. This saves our classifiers for direct access from our module without training and testing the models each time we run the algorithm.
+
+Next we run our script sentiment.py to predict the sentiment. It takes an user input and calls our main module called module_sentiment.py where the pickled algorithms are loaded. Here we create a custom class called Analyser, which acts as a complex classifier. It takes as input, the classifiers we have trained so far. These classifiers are used to predict the result individually and the most commonly occuring result is used as the output. This class contains two methods: classify() and accuracy(). classify() is used to return the desired output and accuracy() returns the average accuracy of all the classifiers.
 https://www.cs.utexas.edu/~mooney/cs391L/paper-template.html
